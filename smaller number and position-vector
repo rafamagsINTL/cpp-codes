@@ -4,7 +4,7 @@ using namespace std;
 int main() {
  
     int vetor[1000];
-    int q;					//quantidade de numeros
+    int q;			//quantidade de numeros
     int menor = vetor[0];	// menor numero registrado
     int posicao = 0;
     
