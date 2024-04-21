@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+ 
+int main() {
+ 
+    int vetor[1000];
+    int q;					//quantidade de numeros
+    int menor = vetor[0];	// menor numero registrado
+    int posicao = 0;
+    
+    cin >> q;
+    
+    for(int i = 0; i < q; i++){
+        cin >> vetor[i];
+     
+	 if(vetor[i] < menor){
+        menor = vetor[i];
+    	posicao = i;
+	 }
+	}    
+        
+    cout << "Menor valor: " << menor << endl;
+    cout << "Posicao: " << posicao << endl;
+    
+    return 0;
+}
